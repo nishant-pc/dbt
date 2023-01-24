@@ -6,7 +6,7 @@ with customers as (
         last_name
 
     from {{ source('jaffle_shop', 'customers') }}
-    -- schema and tablename
+    -- source name and tablename
 
 )
 
